@@ -25,8 +25,8 @@ FinalPipeline::FinalPipeline(Logger& logger, const Window& window, const Device&
 
     PipelineBuilder builder{};
     /* Shader stages */
-    builder.add_shader_stage(ShaderStage::eVertex, final_shader, "main");
-    builder.add_shader_stage(ShaderStage::eFragment, final_shader, "main");
+    builder.add_shader_stage(ShaderStage::eVertex, final_shader, "entry_vertex");
+    builder.add_shader_stage(ShaderStage::eFragment, final_shader, "entry_pixel");
     /* Dynamic state */
     builder.add_dynamic_state(vk::DynamicState::eViewport);
     builder.add_dynamic_state(vk::DynamicState::eScissor);
