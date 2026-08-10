@@ -22,7 +22,7 @@ Making use out of [Radiance Cascades (RC)](https://github.com/Raikiri/RadianceCa
 
 The entire render pipeline consists of 2 interleaved parts, Surfel maintenance & Radiance gathering.  
 Surfel maintenance as the name suggests maintains the Surfels, spawning and recycling them as you move.  
-<sub>For more info on Surfel maintenance, check out my [blog post](https://m4xc.dev/blog/surfel-maintenance/) :)</sub>
+<sub>For more info on Surfel maintenance, check out my [blog post](https://m4xc.dev/articles/surfel-maintenance/) :)</sub>
 
 Radiance gathering is split into 3 parts:
 1. **Gathering** Ray-tracing the probe rays through the scene to gather radiance.
